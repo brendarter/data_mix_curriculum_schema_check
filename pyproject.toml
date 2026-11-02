@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "brendarter-lorapeft_jd122"
+name = "brendarter-data_mix_curriculum_schema_check"
 version = "0.1.0"
 description = "从样本里推断LoRA 与参数高效微调研究员·训练数据配比与课程学习应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://brendarter.github.io"
-Repository = "https://github.com/brendarter/lorapeft_jd122"
-Issues = "https://github.com/brendarter/lorapeft_jd122/issues"
+Repository = "https://github.com/brendarter/data_mix_curriculum_schema_check"
+Issues = "https://github.com/brendarter/data_mix_curriculum_schema_check/issues"
 
 [project.scripts]
-lorapeft_jd122 = "lorapeft_jd122:main"
+data_mix_curriculum_schema_check = "data_mix_curriculum_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["lorapeft_jd122"]
+py-modules = ["data_mix_curriculum_schema_check"]
